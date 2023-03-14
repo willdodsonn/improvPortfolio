@@ -1,0 +1,1 @@
+window.alert("Script is working")
