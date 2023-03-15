@@ -1,34 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <h1>Will Dodson</h1>
-        <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="https://github.com/willdodsonn?tab=repositories">Projects</a></li>
-            <li id="time"></li>
-        </ul>
+      <h1>Will Dodson</h1>
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <a href="https://github.com/willdodsonn?tab=repositories">Projects</a>
+        </li>
+        <li id="time"></li>
+      </ul>
     </nav>
     <main>
+      <h1 class="hi">Hi there!</h1>
+      <h3 class="introduction">
+        My name is Will Dodson, and I'm a Full-Stack Developer based out of
+        Colorado. I love to snowboard and play chess. This is my portfolio,
+        using basic HTML, CSS, AND JS.
+      </h3>
+      <h3 class="contact-tell">Click on my contact page if you'd like to chat!</h3>
+      <div class="top-section">
         <section class="photos">
-            <div class="me-photo">
-                <img src="./img/me.jpeg" alt="jawline">
-            </div>
-            <div class="all-logos">
-                <img src="./img/css.png" class="css-logo" alt="css logo">
-                <img src="./img/react.png" class="react-logo" alt="react logo">
-                <img src="" class="" alt="">
-                <img src="" class="" alt="">
-            </div>
+          <div class="me-photo">
+            <img src="./img/me.jpeg" alt="jawline" />
+          </div>
+          <div class="all-logos">
+            <h3>
+              Languages, frameworks, and itegration software I'm experienced
+              with
+            </h3>
+            <img src="./img/html.png" class="html-logo" alt="html logo" />
+            <img src="./img/css.png" class="css-logo" alt="css logo" />
+            <img src="./img/js.png" class="js-logo" alt="js logo" />
+            <img src="./img/react.png" class="react-logo" alt="react logo" />
+            <img src="./img/python.png" class="python-logo" alt="python logo" />
+            <img src="./img/flask.png" class="flask-logo" alt="flask logo" />
+          </div>
         </section>
+      </div>
+      <div class="middle-section">
+        <section class="about">
+          <h2>About:</h2>
+          <p>
+            High-achieving Full-Stack Developer and Sales Associate offering an
+            extensive background in React.js, Python, Node.js, and CSS. As well
+            as customer service, sales, client relations and merchandising.
+            Self-directed, self-motivated, and reliable team player who also
+            works well independently. Looking for opportunities in other
+            companies to help expand their team as a reliable employee as well
+            as enhance and refine my skills as a Full-Stack Developer.
+          </p>
+        </section>
+        <section class="fav-project">
+          <p>Favorite Completed Project</p>
+          <h3>BuddyApp</h3>
+          <a href="https://github.com/aayalapalacin/Buddy-App"
+            ><img src="./img/buddylogo.png" alt=""
+          /></a>
+          <aside>Click the image to see the source code!</aside>
+        </section>
+      </div>
     </main>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

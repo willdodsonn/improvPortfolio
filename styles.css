@@ -1,12 +1,25 @@
 /* body */
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 body {
   margin: 20px 10%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 16px;
-  background-color: #e0e7f0;
-  color: #000000;
+  background-color: #02052b7e;
+  color: #eeececd9;
+}
+.hi{
+  font-size: 3rem;
+}
+.introduction {
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
+.contact-tell {
+  text-align: center;
+  margin-bottom: 40px;
+}
 /* navigation bar */
 
 nav {
@@ -36,11 +49,14 @@ li {
   font-size: 1.2em;
 }
 
-#time{
-    height: 20px;
-    color: black;
+#time {
+  height: 20px;
+  color: black;
 }
-
+/* top part */
+/* .top-section{
+  display: flex;
+} */
 /* photo of me */
 
 .photos {
@@ -49,8 +65,8 @@ li {
 }
 
 .me-photo img {
-  height: 350px;
-  width: 255px;
+  height: 400px;
+  width: 305px;
   border-radius: 5px;
 }
 
@@ -58,4 +74,25 @@ li {
 .all-logos {
   float: right;
   justify-content: flex-end;
+  text-align: center;
+}
+
+/* favorite project section */
+.fav-project {
+  text-align: end;
+  position: relative;
+  top: 0;
+}
+.fav-project img {
+  border-radius: 20px;
+}
+
+/* about */
+.about {
+  width: 450px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
 }
