@@ -1,13 +1,13 @@
 /* body */
-@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
 body {
   margin: 20px 10%;
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
   font-size: 16px;
   background-color: #02052b7e;
   color: #eeececd9;
 }
-.hi{
+.hi {
   font-size: 5rem;
 }
 .introduction {
@@ -28,6 +28,7 @@ nav {
   align-items: center;
   border-bottom: 3px solid black;
   margin-bottom: 20px;
+
 }
 
 nav h1 {
@@ -40,7 +41,7 @@ ul {
 
 li a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 li {
@@ -51,11 +52,12 @@ li {
 
 #time {
   height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 /* top part */
-.top-section{
-  margin-bottom: 80px;
+.top-section {
+  margin: 80px 0px;
+  /* margin-bottom: 80px; */
 }
 /* photo of me */
 
@@ -74,7 +76,7 @@ li {
 .all-logos {
   text-align: center;
 }
-.logo{
+.logo {
   width: 100px;
 }
 /* favorite project section */
@@ -98,16 +100,43 @@ li {
 /* 
 bottom */
 
-.bottom{
-  margin-top: 90px;
+.bottom {
+  margin: 90px 0px;
   text-align: center;
+  justify-content: space-evenly;
+ 
 }
 
-/* .social-logos{
-  margin-right: 80px;
-} */
+.social-logos{
+  align-items: center;
+}
 
-.touch-logo{
-  /* margin-right: 20px; */
+.touch-logo {
+  margin: 0px 20px;
   width: 80px;
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+footer{
+  text-align: center;
+}
+@media (max-width: 900px){
+   .me-photo img{
+   height: 250px;
+   width: 175px;
+   }
+   .logo{
+    width: 50px;
+   }
 }
