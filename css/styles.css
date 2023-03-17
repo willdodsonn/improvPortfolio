@@ -10,8 +10,9 @@ body {
 
 /* first two intro divs */
 
-.intro-part{
+.intro-part {
   display: block;
+  
 }
 
 .first-part {
@@ -19,27 +20,27 @@ body {
   padding-left: 10px;
   padding-top: 100px;
   background-color: #146748;
-  width: 600px;
-  height: 300px;
-  border-radius: 2px;
+  width: 700px;
+  height: 400px;
+  border-radius: 5px;
   z-index: 1;
 }
 .other-part {
   padding: 50px 60px;
   z-index: 3;
   background-color: #909090;
-  height: 190px;
-  width: 500px;
+  height: 310px;
+  width: 550px;
   position: relative;
-  bottom: 100px;
-  left: 90px;
+  bottom: 50px;
+  left: 140px;
 }
 .hi {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .introduction {
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -81,10 +82,11 @@ li {
   height: 20px;
   color: #000000;
 }
+
+
 /* top part */
 .top-section {
   margin: 80px 0px;
-  /* margin-bottom: 80px; */
 }
 /* photo of me */
 
@@ -94,14 +96,22 @@ li {
 }
 
 .me-photo img {
-  height: 400px;
-  width: 305px;
+  height: 530px;
+  width: 405px;
   border-radius: 5px;
+  position: relative;
+  bottom: 110px;
+  left: 650px;
+  z-index: 1;
 }
+
 
 /* logo */
 .all-logos {
   text-align: center;
+  position: relative;
+  bottom: 500px;
+  display: block;
 }
 .logo {
   width: 100px;
