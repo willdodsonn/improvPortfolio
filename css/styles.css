@@ -4,8 +4,35 @@ body {
   margin: 20px 10%;
   font-family: "Prompt", sans-serif;
   font-size: 16px;
-  background-color: #02052b7e;
-  color: #eeececd9;
+  background-color: #ffffff7e;
+  color: #000000d9;
+}
+
+/* first two intro divs */
+
+.intro-part{
+  display: block;
+}
+
+.first-part {
+  margin-top: 150px;
+  padding-left: 10px;
+  padding-top: 100px;
+  background-color: #146748;
+  width: 600px;
+  height: 300px;
+  border-radius: 2px;
+  z-index: 1;
+}
+.other-part {
+  padding: 50px 60px;
+  z-index: 3;
+  background-color: #909090;
+  height: 190px;
+  width: 500px;
+  position: relative;
+  bottom: 100px;
+  left: 90px;
 }
 .hi {
   font-size: 5rem;
@@ -23,12 +50,12 @@ body {
 /* navigation bar */
 
 nav {
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid black;
   margin-bottom: 20px;
-
 }
 
 nav h1 {
@@ -41,7 +68,7 @@ ul {
 
 li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 li {
@@ -52,7 +79,7 @@ li {
 
 #time {
   height: 20px;
-  color: #ffffff;
+  color: #000000;
 }
 /* top part */
 .top-section {
@@ -104,10 +131,9 @@ bottom */
   margin: 90px 0px;
   text-align: center;
   justify-content: space-evenly;
- 
 }
 
-.social-logos{
+.social-logos {
   align-items: center;
 }
 
@@ -127,16 +153,15 @@ bottom */
   opacity: 1;
 }
 
-
-footer{
+footer {
   text-align: center;
 }
-@media (max-width: 900px){
-   .me-photo img{
-   height: 250px;
-   width: 175px;
-   }
-   .logo{
+@media (max-width: 900px) {
+  .me-photo img {
+    height: 250px;
+    width: 175px;
+  }
+  .logo {
     width: 50px;
-   }
+  }
 }
