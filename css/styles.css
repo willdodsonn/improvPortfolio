@@ -1,10 +1,15 @@
 /* body */
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+html{
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Ft3.ftcdn.net%2Fjpg%2F03%2F51%2F47%2F58%2F360_F_351475884_hRTuE8z6TvNVUtPkYBmmspxYGTc7BKxj.jpg&tbnid=sRlqDDIBgctp3M&vet=12ahUKEwj24fb4gOb9AhU8bjABHU73BEgQMygXegUIARD8AQ..i&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dgrey%2520and%2520green%2520background&docid=Fmd_D3waYW11HM&w=720&h=360&q=dark%20green%20and%20gray%20background%20jpg&ved=2ahUKEwj24fb4gOb9AhU8bjABHU73BEgQMygXegUIARD8AQ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 body {
   margin: 20px 10%;
   font-family: "Prompt", sans-serif;
   font-size: 16px;
-  background-color: #ffffff7e;
   color: #000000d9;
 }
 
@@ -91,7 +96,6 @@ li {
 /* photo of me */
 
 .photos {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -100,9 +104,9 @@ li {
   width: 405px;
   border-radius: 5px;
   position: relative;
-  bottom: 110px;
+  bottom: 75px;
   left: 650px;
-  z-index: 1;
+  z-index: 3;
 }
 
 
@@ -111,6 +115,7 @@ li {
   text-align: center;
   position: relative;
   bottom: 500px;
+  right: 300px;
   display: block;
 }
 .logo {
@@ -118,10 +123,13 @@ li {
 }
 /* favorite project section */
 .fav-project {
-  text-align: end;
+  text-align: center;
+  position: relative;
+  right: 20px;
 }
 .fav-project img {
   border-radius: 20px;
+  width: 100px;
 }
 
 /* about */

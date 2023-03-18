@@ -1,24 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
 body {
-
   font-family: "Prompt", sans-serif;
   font-size: 16px;
-  background-color: #02052b7e;
+
   color: #eeececd9;
+  background-image: url("img/backgroundgray.jpeg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
 }
-form{
-    margin: 0 auto;
-    display: block;
-    width: 300px;
-    height: 560px;
-    text-align: center;
-    border: 5px solid #eeececd9;
+form {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  height: 560px;
+  text-align: center;
+  border: 5px solid #eeececd9;
 }
 
-input, label{
-    margin-bottom: 5px;
-    font-size: 16px;
+input,
+label {
+  margin-bottom: 5px;
+  font-size: 16px;
 }
-input{
-    border-radius: 3px;
+input {
+  border-radius: 3px;
 }
