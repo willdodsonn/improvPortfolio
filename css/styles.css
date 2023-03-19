@@ -1,11 +1,11 @@
 /* body */
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
-/* html{
-  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Ft3.ftcdn.net%2Fjpg%2F03%2F51%2F47%2F58%2F360_F_351475884_hRTuE8z6TvNVUtPkYBmmspxYGTc7BKxj.jpg&tbnid=sRlqDDIBgctp3M&vet=12ahUKEwj24fb4gOb9AhU8bjABHU73BEgQMygXegUIARD8AQ..i&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dgrey%2520and%2520green%2520background&docid=Fmd_D3waYW11HM&w=720&h=360&q=dark%20green%20and%20gray%20background%20jpg&ved=2ahUKEwj24fb4gOb9AhU8bjABHU73BEgQMygXegUIARD8AQ");
-  background-repeat: no-repeat;
+html{
+  background-image: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg");
   background-size: cover;
   background-position: center;
-} */
+  background-repeat:repeat;
+}
 body {
   font-family: "Prompt", sans-serif;
   font-size: 16px;
@@ -26,12 +26,19 @@ footer {
 .first-part {
   margin-top: 300px;
   margin-bottom: 300px;
+  width: 100%;
+  height: 500px;
+  padding-top: 200px;
+  background-color: white;
+  border-radius: 5px;
 }
 .other-part {
-  
+  width: 100%;
+  height: 500px;
+  padding-top: 300px;
+  background-color: white;
   margin: 0 auto;
-  height: 310px;
-  width: 550px;
+  border-radius: 5px;
 }
 .hi {
   font-size: 6rem;
@@ -56,6 +63,7 @@ nav {
   align-items: center;
   border-bottom: 3px solid black;
   margin-bottom: 20px;
+
 }
 
 nav h1 {
@@ -85,7 +93,7 @@ li {
 
 /* top part */
 .top-section {
-  margin: 80px 0px;
+  margin: 100px 0px;
 }
 /* photo of me */
 
@@ -116,22 +124,24 @@ li {
 /* favorite project section */
 .fav-project {
   text-align: center;
-
+  margin-top: 150px;
 }
 .fav-project img {
   border-radius: 20px;
-  width: 100px;
+  width: 600px;
 }
 
 /* about */
 .about {
   /* width: 450px; */
+  margin-top: 140px;
   text-align: center;
 }
 
 .middle-section {
-  display: flex;
+  
   justify-content: space-between;
+  margin: 250px 0px;
 }
 /* 
 bottom */
@@ -165,6 +175,15 @@ bottom */
 footer {
   text-align: center;
 }
+
+.back-top{
+  background-color: #008b8b;
+  
+  border-radius: 5px;
+  color: white;
+}
+
+
 @media (max-width: 900px) {
   .me-photo img {
     height: 250px;
