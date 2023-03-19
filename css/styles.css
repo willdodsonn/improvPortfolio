@@ -1,47 +1,41 @@
 /* body */
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
-html{
+/* html{
   background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Ft3.ftcdn.net%2Fjpg%2F03%2F51%2F47%2F58%2F360_F_351475884_hRTuE8z6TvNVUtPkYBmmspxYGTc7BKxj.jpg&tbnid=sRlqDDIBgctp3M&vet=12ahUKEwj24fb4gOb9AhU8bjABHU73BEgQMygXegUIARD8AQ..i&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dgrey%2520and%2520green%2520background&docid=Fmd_D3waYW11HM&w=720&h=360&q=dark%20green%20and%20gray%20background%20jpg&ved=2ahUKEwj24fb4gOb9AhU8bjABHU73BEgQMygXegUIARD8AQ");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 body {
-  margin: 20px 10%;
   font-family: "Prompt", sans-serif;
   font-size: 16px;
   color: #000000d9;
+}
+
+main,
+footer {
+  margin: 20px 10%;
 }
 
 /* first two intro divs */
 
 .intro-part {
   display: block;
-  
 }
 
 .first-part {
-  margin-top: 150px;
-  padding-left: 10px;
-  padding-top: 100px;
-  background-color: #146748;
-  width: 700px;
-  height: 400px;
-  border-radius: 5px;
-  z-index: 1;
+  margin-top: 300px;
+  margin-bottom: 300px;
 }
 .other-part {
-  padding: 50px 60px;
-  z-index: 3;
-  background-color: #909090;
+  
+  margin: 0 auto;
   height: 310px;
   width: 550px;
-  position: relative;
-  bottom: 50px;
-  left: 140px;
 }
 .hi {
   font-size: 6rem;
+  text-align: center;
 }
 .introduction {
   font-weight: 600;
@@ -66,6 +60,7 @@ nav {
 
 nav h1 {
   font-size: 2rem;
+  margin-left: 20px;
 }
 
 ul {
@@ -85,9 +80,8 @@ li {
 
 #time {
   height: 20px;
-  color: #000000;
+  color: #008b8b;
 }
-
 
 /* top part */
 .top-section {
@@ -96,27 +90,25 @@ li {
 /* photo of me */
 
 .photos {
-  justify-content: space-between;
+  margin-top: 350px;
 }
 
 .me-photo img {
   height: 530px;
   width: 405px;
   border-radius: 5px;
-  position: relative;
+  float: right;
+  margin-top: 250px;
+  /* position: relative;
   bottom: 75px;
   left: 650px;
-  z-index: 3;
+  z-index: 3; */
 }
-
 
 /* logo */
 .all-logos {
   text-align: center;
-  position: relative;
-  bottom: 500px;
-  right: 300px;
-  display: block;
+  margin-top: 150px;
 }
 .logo {
   width: 100px;
@@ -124,8 +116,7 @@ li {
 /* favorite project section */
 .fav-project {
   text-align: center;
-  position: relative;
-  right: 20px;
+
 }
 .fav-project img {
   border-radius: 20px;
