@@ -183,7 +183,6 @@ footer {
 }
 
 .back-top {
-  
   color: black;
   cursor: pointer;
   display: block;
@@ -197,35 +196,28 @@ footer {
   width: 100%;
 }
 
-.back-top:hover{
-    background-color: aquamarine;
-}
-
-@media (max-width:525px){
-  .introduction{
-   font-size: 1.4rem;
-  }
+.back-top:hover {
+  background-color: aquamarine;
 }
 
 @media (max-width: 920px) {
-  #time{
+  #time {
     display: none;
   }
-  .hi{
+  .hi {
     font-size: 5rem;
   }
-  .introduction{
+  .introduction {
     font-size: 1.5rem;
   }
-  .other-part{
+  .other-part {
     margin-bottom: 120px;
   }
   .me-photo img {
     height: 250px;
     width: 175px;
-    
   }
-  .all-logos{
+  .all-logos {
     display: block;
     margin-right: 170px;
   }
@@ -237,3 +229,18 @@ footer {
   }
 }
 
+@media (max-width: 325px) {
+  nav {
+    display: block;
+    border: none;
+  }
+  .other-part {
+    height: 300px;
+  }
+  .introduction {
+    font-size: 1.3rem;
+  }
+  .hi {
+    font-size: 4rem;
+  }
+}
