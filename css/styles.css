@@ -126,7 +126,7 @@ li {
 /* favorite project section */
 .fav-project {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 350px;
 }
 .fav-project img {
   border-radius: 20px;
@@ -136,6 +136,7 @@ li {
 /* about */
 .about {
   text-align: center;
+  margin-top: 100px;
 }
 
 .middle-section {
@@ -181,12 +182,58 @@ footer {
   color: black;
 }
 
-@media (max-width: 900px) {
+.back-top {
+  
+  color: black;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  margin: 0 auto 2em;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.back-top:hover{
+    background-color: aquamarine;
+}
+
+@media (max-width:525px){
+  .introduction{
+   font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 920px) {
+  #time{
+    display: none;
+  }
+  .hi{
+    font-size: 5rem;
+  }
+  .introduction{
+    font-size: 1.5rem;
+  }
+  .other-part{
+    margin-bottom: 120px;
+  }
   .me-photo img {
     height: 250px;
     width: 175px;
+    
+  }
+  .all-logos{
+    display: block;
+    margin-right: 170px;
   }
   .logo {
-    width: 50px;
+    width: 60px;
+  }
+  .fav-project img {
+    width: 400px;
   }
 }
+

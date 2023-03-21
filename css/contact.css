@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+html {
+  background-image: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
 body {
   font-family: "Prompt", sans-serif;
   font-size: 16px;
-
-  color: #000;
-  background-image: url("img/backgroundgray.jpeg");
-  background-repeat: repeat-y;
-  background-size: cover;
-  background-position: center;
+  color: #000000d9;
 }
 form {
   margin: 0 auto;
@@ -15,7 +16,8 @@ form {
   width: 300px;
   height: 560px;
   text-align: center;
-  border: 5px solid #eeececd9;
+  border: 5px solid darkcyan;
+  border-radius: 10px;
 }
 
 input,
@@ -25,4 +27,9 @@ label {
 }
 input {
   border-radius: 3px;
+}
+.submit{
+  border-radius: 5px;
+  font-size: 14px;
+  border-color: aqua;
 }

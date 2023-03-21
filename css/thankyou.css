@@ -1,0 +1,37 @@
+@import url("https://fontsgoogleapiscom/css2?family=Prompt&display=swap");
+html {
+  background-image: url("https://imgfreepikcom/free-vector/low-poly-white-background-design_1017-33204jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+body {
+  font-family: "Prompt", sans-serif;
+  font-size: 16px;
+  color: #000000d9;
+}
+
+h1 {
+  margin-top: 200px;
+  font-size: 6rem;
+  text-align: center;
+}
+
+button {
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  margin: 0 auto 2em;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
