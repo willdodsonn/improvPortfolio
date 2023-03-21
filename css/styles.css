@@ -1,4 +1,4 @@
-/* body */
+
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
 html {
   background-image: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg");
@@ -198,6 +198,7 @@ footer {
 
 .back-top:hover {
   background-color: aquamarine;
+
 }
 
 @media (max-width: 920px) {
