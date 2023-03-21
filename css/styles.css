@@ -14,7 +14,8 @@ body {
 
 main,
 footer {
-  margin: 20px 10%;
+  /* margin: 20px 0%; */
+  margin: 0 auto;
 }
 
 /* first two intro divs */
@@ -109,10 +110,7 @@ li {
   border-radius: 5px;
   float: right;
   margin-top: 250px;
-  /* position: relative;
-  bottom: 75px;
-  left: 650px;
-  z-index: 3; */
+  margin-right: 100px;
 }
 
 /* logo */
@@ -201,7 +199,11 @@ footer {
 
 }
 
-@media (max-width: 920px) {
+@media (max-width: 520px) {
+  nav {
+    display: block;
+    border: none;
+  }
   #time {
     display: none;
   }
@@ -212,11 +214,12 @@ footer {
     font-size: 1.5rem;
   }
   .other-part {
-    margin-bottom: 120px;
+    margin-bottom: 10px;
   }
   .me-photo img {
     height: 250px;
     width: 175px;
+    margin: 500px 10px 0px 0px;
   }
   .all-logos {
     display: block;
@@ -226,7 +229,7 @@ footer {
     width: 60px;
   }
   .fav-project img {
-    width: 400px;
+    width: 300px;
   }
 }
 
@@ -244,4 +247,5 @@ footer {
   .hi {
     font-size: 4rem;
   }
+  
 }
